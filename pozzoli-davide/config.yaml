@@ -1,0 +1,134 @@
+baseURL: "https://treyvian.github.io/"
+languageCode: "en-us"
+title: "Davide Pozzoli Portfolio"
+theme: "hugo-profile"
+relativeURLs: true
+
+googleanalytics: UA-xxxxxx-x
+disqusShortname:
+Paginate: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+enableEmoji: true
+params:
+  version: 3
+  customCSS: false
+
+  favicon: "/images/fav.png"
+  description: "A high performance hugo theme for personal portfolio and blog."
+
+  # Navbar Menus
+  # customMenus:
+  #  - name: "Blog"
+  #    Url: "/blog"
+
+  # home
+  disable_home: false
+  profile_image: "/images/photo.JPG"
+  name: "Davide Pozzoli"
+  namecolor: ffc107
+  profession: "student and Crypto enthusiast"
+  github: "https://github.com/treyvian"
+  linkedin: "https://www.linkedin.com/in/davide-pozzoli-573324219/"
+  twitter: "https://twitter.com/davide_pozzoli"
+
+  # About
+  disable_about: false
+  descripe_l1_person: "Hi, I'm a tech enthusiast, eager to learn new things every day. Trying to learn new things everyday. I have been following the Crypto world since 2016 and firmly believe that it will be part of our future."
+  descripe_l2_person: "I love sports, was a swimmer once. Since 2017 I've been following the NBA, I'm a big Boston fan, and even though I am not able to follow the games live, I still watch the replica the day after (trying to avoid spoilers!)."
+
+  skills:
+    - name: Java
+      percentage: 80
+    - name: Python
+      percentage: 75
+    - name: C++
+      percentage: 70
+    - name: C
+      percentage: 65
+    - name: Scala
+      percentage: 55
+
+  # Experience
+  disable_experience: false
+  experience:
+    - company: "Huawei"
+      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
+      role: "Seeds for the Future"
+      startdate: "8 Nov 2020"
+      enddate: "15 Nov 2021"
+      featuredpoints:
+        - point: "Seeds for the Future is Huawei's flagship global CSR program. The program was launched in 2008. This program aims to develop skilled, local ICT talent and bridge communication between countries and cultures."
+        - point: "During the week I had to increase my knowledge on AI, 5G and Cloud by following lessons made available by the program, experience cultural exchange with people from around the world and work in group to sketch an idea for improving the society using bleeding edge technologies."
+        - point: "https://www.huawei.com/minisite/seeds-for-the-future/index.html"
+    - company: "Research"
+      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
+      role: "Software Architecture Laboratory at Unimib"
+      startdate: "Marc 2020"
+      enddate: "Jun 2020"
+      featuredpoints:
+        - point: "Research work for the Thesis of the Bachelor degree."
+        - point: "Title: realizzazione di uno strumento che opera self-repair per app Android affette da problemi di data loss"        
+        - point: "The objective was to create a tool that given in input an Android application with a data loss problem would try to fix by applying a few pattern."
+        - point: "The software produced at the end was nowhere near ready, but other students are still working on imporving the project."
+    - company: "Instructor"
+      #id: "Swimming instructor"
+      role: "Swimming Instructor"
+      startdate: Feb 2019
+      enddate: Feb 2020
+      featuredpoints:
+        - point: "It was a great experience that allowed me to make some money during my Bachelor degree." 
+        - point: "improved my social and reletional skills, having to deal with many different people (with different ages and expectation). "
+        - point: "It gave me another perspective on how difficult is to teach and pass knowledge to other people."
+
+
+
+  # Education
+  disable_education: false
+  education:
+    - degree: "Master Degree"
+      branch: "Artificial Intelligience"
+      university: "Alma Master Studiorum - Università di Bologna"
+      startedyear: "Oct 2020"
+      graduation: "current"
+    - degree: "Bachelor Degree"
+      branch: "Computer Science"
+      university: "Università degli studi Milano-Bicocca"
+      startedyear: "Oct 2017"
+      graduation: "July 2020"
+
+
+
+  # Projects
+  disable_projects: false
+  projects:
+    - name: "Log Analysis with Spark"
+      img: /images/project.jpg
+      githublink: "https://github.com/treyvian/Log_Analysis_with_Spark"
+      featuredlink: "/"
+      description: "Log analysis using Spark with Scala. The idea is to use the parallelization provided by Spark to format and analyze big quantity of logs"
+
+  #Achievements
+  disable_achievements: true
+
+  # Contact
+  disable_contact: false
+  contact_content: My inbox is always open. I'll try my best to get back to you!
+  email: "davide.pozzoli6@gmail.com"
+
+  # Footer
+  disable_footer: true
+  socialiconfooter: false
+  recentposts: false
+
+  # Blog
+  disable_blog: true
+  #showdescription: false
+  #tweet: true
